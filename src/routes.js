@@ -22,7 +22,17 @@ function App() {
             headerTintColor: '#f8f8f2'
           }}
         />
-        <Stack.Screen name="Contador" component={Counter} />
+        <Stack.Screen
+          name="Contador"
+          component={Counter}
+          options={{
+            headerStyle: {
+              backgroundColor: '#FF4500',
+            },
+            headerTintColor: '#f8f8f2'
+          }}
+
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

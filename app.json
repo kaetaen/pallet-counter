@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "pallet-counter",
+    "name": "Contador de Paletes",
     "slug": "pallet-counter",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,7 +8,7 @@
     "splash": {
       "image": "./src/assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#153361"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -16,17 +16,8 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./src/assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./src/assets/favicon.png"
+      "package": "com.kaetaen.palletcounter"
     }
   }
 }
